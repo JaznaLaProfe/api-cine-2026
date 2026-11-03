@@ -1,6 +1,14 @@
-# Cine inteligente: API + dashboard
+# Cine inteligente: API 
 
 Aplicación de referencia para analizar una plataforma de cine inteligente. La arquitectura separa totalmente la visualización del acceso a datos:
+
+Por ahora:
+
+```text
+MongoDB Atlas <--> FastAPI (agregaciones y reglas de negocio) 
+```
+
+En la versión futura:
 
 ```text
 MongoDB Atlas <--> FastAPI (agregaciones y reglas de negocio) <--> Streamlit
@@ -46,7 +54,7 @@ Se requiere Python 3.10 o superior.
    pip install -r requirements.txt
    ```
 
-2. Copie `.env.example` a `.env` y complete `MONGO_URI`. No suba ese archivo al repositorio.
+2. Copie `.env_example` a `.env` y complete `MONGO_URI`. No suba ese archivo al repositorio.
 
 3. Ejecute la API:
 
