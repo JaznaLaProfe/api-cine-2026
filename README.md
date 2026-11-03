@@ -41,7 +41,6 @@ proyecto/
     ├── director_service.py
     └── pelicula_service.py 
 ├── dashboard/
-└── docker-compose.yml
 ```
 ## Inicio rápido
 
@@ -52,6 +51,7 @@ Se requiere Python 3.10 o superior.
    ```bash
    python -m venv .env_bdy0101
    source .env_bdy0101/bin/activate
+   .env_bdy0101\Scripts\Activate.ps1 # Windows
    pip install -r requirements.txt
    ```
 
