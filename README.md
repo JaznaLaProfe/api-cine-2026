@@ -22,6 +22,7 @@ Streamlit no tiene dependencia de `pymongo`, URI ni credenciales de Atlas: solo 
 - `peliculas`: datos de peliculas.
 
 ## Estructura del proyecto
+```text
 proyecto/
 │
 ├── .env                 variables de entorno
@@ -41,7 +42,7 @@ proyecto/
     └── pelicula_service.py 
 ├── dashboard/
 └── docker-compose.yml
-
+```
 ## Inicio rápido
 
 Se requiere Python 3.10 o superior.
